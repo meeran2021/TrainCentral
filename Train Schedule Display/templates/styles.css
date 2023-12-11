@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.table {
+    box-shadow: 0 0 10px rgba(71, 14, 14, 0.1);
+}
+
+.table th,
+.table td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: center;
+}
+
+.table thead th {
+    background-color: #aa2f2f;
+    /* background-color: #f2f2f2; */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table tbody tr:hover {
+    background-color: #f2f2f2;
+    transition: background-color 0.2s ease;
+}
+
+.footer {
+    color: #777;
+    font-size: 14px;
+}
